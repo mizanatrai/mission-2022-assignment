@@ -1,0 +1,220 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: white;
+}
+.top {
+    height: 100vh;
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 120px;      
+}
+.top-left{
+    height: 90vh;
+    width: 50%;
+}
+.top-left p {
+    color: rgb(67, 129, 243);
+    text-align: justify;
+    padding: 20px;
+    font-size: 21px;
+    margin-top: -40px;
+}
+.top-left a,
+.develop-right a{
+    text-decoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 35px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+.top-left h6 {
+    color: rgb(238, 158, 10);
+    font-size: 15px;
+    margin-left: 20px;
+}
+.top-left-heading{
+    display: flex;
+}
+.top-left-heading h1 {
+    font-size: 50px;
+    margin-top: 0;
+    color: darkslategray;
+}
+.top-left-heading h2 {
+    font-size: 40px;
+    color: chocolate;
+    margin-top: -30px;
+}
+.vl {
+    border-left: 5px solid;
+    background-image: linear-gradient(tomato, orange);
+    border-image-slice: 3;
+    height: 110px;
+    padding-right: 15px;
+}
+.top-right{
+    height: 90vh;
+    width: 50%;
+    background-image: url(images/shapes/shape-5.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: top;
+}
+.top-right img {
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 35px;
+    margin-top: -70px;
+}
+
+/* secton-mission start */
+.mission{
+    height: 90vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.mission h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(133, 245, 211);
+    margin-bottom: 50px;
+}
+.mission h1 span{
+    color: chocolate;
+}
+.mission-box{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+#box{
+    height: 300px;
+    width: 90%;
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow: black
+    border-radius: 20px;
+    padding: 10px;
+}
+.box-one{
+    background-color: rgb(205, 232, 236);
+}
+.box-two{
+    background-color: rgb(141, 187, 196);
+}
+.box-three{
+    background-color: rgb(75, 82, 83);
+}
+#box img{
+    height: 40%;
+}
+#box h2 {
+    color: rgb(223, 49, 49);
+    font-size: 24px;
+}
+#box p {
+    color: initial;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* develop and global section start */
+.develop,
+.global{
+    height: 80vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.develop-left{
+    height: 90%;
+    width: 40%;
+}
+.develop-left img{
+    height: 100%;
+    width: 100%;
+}
+.develop-right{
+    height: 90%;
+    width: 60%;
+}
+.develop-right h1{
+    font-size: 40px;
+    color: rgb(14, 94, 41);
+    margin-left: 40px;
+    margin-top: 80px;
+}
+.develop-right h2{
+    font-size: 30px;
+    color: rgb(107, 50, 77);
+    margin-left: 40px;
+}
+.develop-right p{
+    margin-left: 20px;
+    padding:20px;
+    text-align: justify;
+    color: rgb(68, 31, 49);
+    font-size: 20px;
+}
+
+/* subscribe section start */
+.subscribe {
+    height: 40vh;
+    width: 80%;
+    margin: 50px auto 0px;
+    text-align: center;
+    background-color: rgb(234 244 245);
+}
+.subscribe h1 {
+    font-size: 40px;
+    color: darkkhaki;
+    padding-top: 30px;
+}
+.subcribe-btn input{
+    height: 30px;
+    width: 320px;
+    overflow: hidden;
+    outline: none;
+    font-size: 18px;
+    background-color: rgb(211, 208, 203);
+    color: rgb(51, 42, 42);
+    border: 1px solid rgb(97, 97, 50);
+    padding: 5px;
+}
+.subcribe-btn button {
+    height: 40px;
+    width: 100px;
+    overflow: hidden;
+    outline: none;
+    font-size: 22px;
+    background-color: rgb(45 137 90);
+    color: rgb(219 206 206);
+    border: 1px solid rgb(97, 97, 50);
+    padding: 5px;
+}
+
+/* footer section start */
+.footer{
+    height: 160px;
+    width: 100%;
+    background-color: rgb(92, 136, 165);
+    text-align: center;
+}
+.footer h1 {
+    padding-top: 20px;
+    color: lightgoldenrodyellow;
+}
+.footer h1 span{
+    color: rgb(128, 128, 82);
+}
+.footer p{
+    color: white;
+}
+.footer h5{
+    color: white;
+}
